@@ -1,0 +1,37 @@
+.profile-doctor-container {
+
+    .intro-doctor {
+        display       : flex;
+        padding-bottom: 15px;
+
+        .content-left {
+            // background   : center center no-repeat;
+            background-size    : cover;
+            background-position: center;
+            background-repeat  : no-repeat;
+            width              : 100px;
+            height             : 100px;
+            border-radius      : 50%;
+            // margin: 10px 20px;
+            margin             : 10px;
+            margin-top         : -3px;
+
+        }
+
+        .content-right {
+            margin-left    : 20px;
+            width          : calc(100% - 80px);
+            // border      : 1px solid gray;
+            padding-left   : 10px;
+            display        : flex;
+            flex-direction : column;
+            margin-top     : 10px;
+        }
+    }
+
+    ;
+
+    .profiledoctor-see-more {
+        margin-left: 18px;
+    }
+}

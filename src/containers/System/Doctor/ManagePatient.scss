@@ -1,0 +1,52 @@
+div._loading_overlay_wrapper {
+    position: unset;
+
+    ._loading_overlay_overlay {
+        z-index: 11111111;
+    }
+}
+
+
+.manange-patient-container {
+    .m-p-title {
+        text-align: center;
+        margin-top: 10px;
+        font-size : 16px;
+    }
+
+    .manage-patient-body {
+        padding: 10px;
+
+        .table-manage-patient {
+
+            table,
+            th,
+            td {
+                border: 1px solid black;
+            }
+
+            th,
+            td {
+                padding   : 5px;
+                text-align: left;
+
+            }
+
+            button {
+                border       : none;
+                outline      : none;
+                padding      : 5px 7px;
+                margin       : 0 10px;
+                background   : orange;
+                border-radius: 3px;
+
+                &:hover {
+                    opacity: 0.9;
+                }
+            }
+
+
+            .td-btn-ok {}
+        }
+    }
+}
